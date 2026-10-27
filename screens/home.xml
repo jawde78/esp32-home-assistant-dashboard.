@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen>
+  <view style_bg_color="#bg" style_pad_all="12" style_text_color="#white">
+    <!-- Header -->
+    <lv_obj x="12" y="8" width="776" height="34" style_bg_opa="0">
+      <lv_label x="4" y="5" text="⌂  MIJN HUIS" style_text_color="#white" style_text_font="montserrat_20" />
+      <lv_label x="590" y="7" text="WI-FI   •   DINSDAG 27 OKT   08:24" style_text_color="#muted" style_text_font="montserrat_14" />
+    </lv_obj>
+
+    <!-- Hero weather panel -->
+    <lv_obj x="12" y="48" width="380" height="116" style_bg_color="#panel2" style_radius="18" style_border_width="1" style_border_color="0x35506F">
+      <lv_label x="18" y="14" text="08:24" style_text_color="#white" style_text_font="montserrat_48" />
+      <lv_label x="20" y="76" text="Dinsdag 27 oktober 2026" style_text_color="#muted" style_text_font="montserrat_16" />
+      <lv_label x="270" y="15" text="☀" style_text_color="#orange" style_text_font="montserrat_32" />
+      <lv_label x="270" y="55" text="12°" style_text_color="#white" style_text_font="montserrat_28" />
+      <lv_label x="270" y="87" text="Licht bewolkt" style_text_color="#muted" style_text_font="montserrat_12" />
+    </lv_obj>
+
+    <!-- Music panel -->
+    <lv_obj x="404" y="48" width="384" height="116" style_bg_color="#panel" style_radius="18" style_border_width="1" style_border_color="0x35506F">
+      <lv_obj x="420" y="64" width="82" height="82" style_bg_color="0x553D79" style_radius="12">
+        <lv_label x="23" y="20" text="♫" style_text_color="#white" style_text_font="montserrat_32" />
+      </lv_obj>
+      <lv_label x="518" y="65" text="MUZIEK" style_text_color="#blue" style_text_font="montserrat_12" />
+      <lv_label x="518" y="84" text="Dancing in My Room" style_text_color="#white" style_text_font="montserrat_18" />
+      <lv_label x="518" y="108" text="37 aiden  •  Spotify" style_text_color="#muted" style_text_font="montserrat_12" />
+      <lv_label x="518" y="132" text="|◀       ▶       ▶|" style_text_color="#white" style_text_font="montserrat_18" />
+    </lv_obj>
+
+    <!-- Main control cards -->
+    <lv_obj x="12" y="176" width="148" height="136" style_bg_color="#panel" style_radius="16" style_border_width="1" style_border_color="0x765A28">
+      <lv_label x="13" y="12" text="💡 VERLICHTING" style_text_color="#orange" style_text_font="montserrat_14" />
+      <lv_label x="14" y="49" text="Woonkamer" style_text_color="#white" style_text_font="montserrat_16" />
+      <lv_label x="14" y="76" text="● AAN" style_text_color="#green" style_text_font="montserrat_16" />
+      <lv_label x="14" y="105" text="Keuken  •  Uit" style_text_color="#muted" style_text_font="montserrat_12" />
+    </lv_obj>
+    <lv_obj x="172" y="176" width="148" height="136" style_bg_color="#panel" style_radius="16" style_border_width="1" style_border_color="0x7B4657">
+      <lv_label x="13" y="12" text="♨ KLIMAAT" style_text_color="#pink" style_text_font="montserrat_14" />
+      <lv_label x="13" y="48" text="20,5°" style_text_color="#white" style_text_font="montserrat_32" />
+      <lv_label x="14" y="91" text="Verwarmen" style_text_color="#orange" style_text_font="montserrat_14" />
+      <lv_label x="14" y="113" text="−       +" style_text_color="#white" style_text_font="montserrat_18" />
+    </lv_obj>
+    <lv_obj x="332" y="176" width="148" height="136" style_bg_color="#panel" style_radius="16" style_border_width="1" style_border_color="0x68469B">
+      <lv_label x="13" y="12" text="✿ LUXAFLEX" style_text_color="#purple" style_text_font="montserrat_14" />
+      <lv_label x="14" y="49" text="Stand" style_text_color="#muted" style_text_font="montserrat_14" />
+      <lv_label x="14" y="74" text="LAAG" style_text_color="#white" style_text_font="montserrat_22" />
+      <lv_label x="14" y="111" text="Laag  Middel  Hoog" style_text_color="#muted" style_text_font="montserrat_10" />
+    </lv_obj>
+    <lv_obj x="492" y="176" width="148" height="136" style_bg_color="#panel" style_radius="16" style_border_width="1" style_border_color="0x285C8A">
+      <lv_label x="13" y="12" text="▣ CAMERA'S" style_text_color="#blue" style_text_font="montserrat_14" />
+      <lv_obj x="13" y="43" width="122" height="62" style_bg_color="0x29445A" style_radius="9">
+        <lv_label x="36" y="19" text="LIVE" style_text_color="#white" style_text_font="montserrat_18" />
+      </lv_obj>
+      <lv_label x="14" y="112" text="Voordeur  •  Online" style_text_color="#green" style_text_font="montserrat_10" />
+    </lv_obj>
+    <lv_obj x="652" y="176" width="136" height="136" style_bg_color="#panel" style_radius="16" style_border_width="1" style_border_color="0x286C53">
+      <lv_label x="12" y="12" text="ENERGIE" style_text_color="#green" style_text_font="montserrat_14" />
+      <lv_label x="12" y="51" text="1,8 kW" style_text_color="#white" style_text_font="montserrat_24" />
+      <lv_label x="12" y="86" text="Verbruik nu" style_text_color="#muted" style_text_font="montserrat_12" />
+      <lv_label x="12" y="111" text="Vandaag  8,4 kWh" style_text_color="#green" style_text_font="montserrat_10" />
+    </lv_obj>
+
+    <!-- Lower information cards -->
+    <lv_obj x="12" y="324" width="188" height="72" style_bg_color="#panel" style_radius="14">
+      <lv_label x="12" y="9" text="▦  AGENDA" style_text_color="#blue" style_text_font="montserrat_14" />
+      <lv_label x="12" y="34" text="10:00  Projectoverleg" style_text_color="#white" style_text_font="montserrat_12" />
+      <lv_label x="12" y="53" text="15:30  Afspraak" style_text_color="#muted" style_text_font="montserrat_12" />
+    </lv_obj>
+    <lv_obj x="212" y="324" width="176" height="72" style_bg_color="#panel" style_radius="14">
+      <lv_label x="12" y="9" text="☁  WEER" style_text_color="#blue" style_text_font="montserrat_14" />
+      <lv_label x="12" y="37" text="12°   Licht bewolkt" style_text_color="#white" style_text_font="montserrat_14" />
+    </lv_obj>
+    <lv_obj x="400" y="324" width="198" height="72" style_bg_color="#panel" style_radius="14">
+      <lv_label x="12" y="9" text="▣  RAMEN &amp; DEUREN" style_text_color="#green" style_text_font="montserrat_14" />
+      <lv_label x="12" y="36" text="Voordeur  •  Gesloten" style_text_color="#white" style_text_font="montserrat_12" />
+      <lv_label x="12" y="54" text="Achterdeur  •  Gesloten" style_text_color="#muted" style_text_font="montserrat_12" />
+    </lv_obj>
+    <lv_obj x="610" y="324" width="178" height="72" style_bg_color="#panel" style_radius="14">
+      <lv_label x="12" y="9" text="•••  OVERIG" style_text_color="#muted" style_text_font="montserrat_14" />
+      <lv_label x="12" y="37" text="Sensoren  •  Status OK" style_text_color="#white" style_text_font="montserrat_12" />
+    </lv_obj>
+
+    <!-- Persistent navigation -->
+    <lv_obj x="12" y="408" width="776" height="58" style_bg_color="0x101F34" style_radius="16" style_border_width="1" style_border_color="0x304966">
+      <lv_label x="19" y="8" text="⌂" style_text_color="#blue" style_text_font="montserrat_22" />
+      <lv_label x="10" y="34" text="HOME" style_text_color="#blue" style_text_font="montserrat_10" />
+      <lv_label x="108" y="8" text="☼" style_text_color="#muted" style_text_font="montserrat_22" />
+      <lv_label x="88" y="34" text="LICHT" style_text_color="#muted" style_text_font="montserrat_10" />
+      <lv_label x="205" y="8" text="♨" style_text_color="#muted" style_text_font="montserrat_22" />
+      <lv_label x="188" y="34" text="KLIMAAT" style_text_color="#muted" style_text_font="montserrat_10" />
+      <lv_label x="309" y="8" text="✿" style_text_color="#muted" style_text_font="montserrat_22" />
+      <lv_label x="290" y="34" text="LUXAFLEX" style_text_color="#muted" style_text_font="montserrat_10" />
+      <lv_label x="415" y="8" text="♫" style_text_color="#muted" style_text_font="montserrat_22" />
+      <lv_label x="403" y="34" text="MUZIEK" style_text_color="#muted" style_text_font="montserrat_10" />
+      <lv_label x="515" y="8" text="▣" style_text_color="#muted" style_text_font="montserrat_22" />
+      <lv_label x="500" y="34" text="CAMERA'S" style_text_color="#muted" style_text_font="montserrat_10" />
+      <lv_label x="625" y="8" text="▥" style_text_color="#muted" style_text_font="montserrat_22" />
+      <lv_label x="615" y="34" text="ENERGIE" style_text_color="#muted" style_text_font="montserrat_10" />
+      <lv_label x="729" y="8" text="•••" style_text_color="#muted" style_text_font="montserrat_22" />
+      <lv_label x="730" y="34" text="MEER" style_text_color="#muted" style_text_font="montserrat_10" />
+    </lv_obj>
+  </view>
+</screen>
