@@ -1,14 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <screen>
-  <view>
-    <lv_label text="MIJN HUIS" />
-    <lv_label text="HOME ASSISTANT DASHBOARD" />
-    <lv_label text="WEER  |  12 graden  |  Licht bewolkt" />
-    <lv_label text="MUZIEK  |  Spotify" />
-    <lv_label text="VERLICHTING  |  Woonkamer aan" />
-    <lv_label text="KLIMAAT  |  20,5 graden" />
-    <lv_label text="LUXAFLEX  |  Laag" />
-    <lv_label text="CAMERAS  |  Voordeur online" />
-    <lv_label text="AGENDA  |  Vandaag" />
-    <lv_label text="ENERGIE  |  1,8 kW" />
+  <view width="800" height="480" style_bg_color="0x081222">
+    <column width="100%" height="100%" gap="12" pad="16">
+      <row width="100%" height="48" gap="8" vertical_align="center">
+        <lv_label text="MIJN HUIS" style_text_color="0xF4F7FF" />
+        <lv_label text="HOME ASSISTANT" style_text_color="0xA9BBD5" />
+      </row>
+      <row width="100%" height="150" gap="12">
+        <lv_obj width="240" height="150" style_bg_color="0x14243A" style_radius="16" flex_flow="column" pad="14" gap="8">
+          <lv_label text="WEER" style_text_color="0x31BFFF" />
+          <lv_label text="12 graden" style_text_color="0xF4F7FF" />
+          <lv_label text="Licht bewolkt" style_text_color="0xA9BBD5" />
+        </lv_obj>
+        <lv_obj width="516" height="150" style_bg_color="0x14243A" style_radius="16" flex_flow="column" pad="14" gap="8">
+          <lv_label text="MUZIEK" style_text_color="0x31BFFF" />
+          <lv_label text="Spotify - Dining in My Room" style_text_color="0xF4F7FF" />
+          <lv_label text="Afspeellijst klaar" style_text_color="0xA9BBD5" />
+        </lv_obj>
+      </row>
+      <row width="100%" height="150" gap="12">
+        <lv_obj width="184" height="150" style_bg_color="0x1B304B" style_radius="16" flex_flow="column" pad="12" gap="8">
+          <lv_label text="VERLICHTING" style_text_color="0xFFB84D" />
+          <lv_label text="Woonkamer" style_text_color="0xF4F7FF" />
+          <lv_label text="Aan" style_text_color="0x36D995" />
+        </lv_obj>
+        <lv_obj width="184" height="150" style_bg_color="0x1B304B" style_radius="16" flex_flow="column" pad="12" gap="8">
+          <lv_label text="KLIMAAT" style_text_color="0xF16E91" />
+          <lv_label text="20,5 graden" style_text_color="0xF4F7FF" />
+          <lv_label text="Verwarmen" style_text_color="0xA9BBD5" />
+        </lv_obj>
+        <lv_obj width="184" height="150" style_bg_color="0x1B304B" style_radius="16" flex_flow="column" pad="12" gap="8">
+          <lv_label text="LUXAFLEX" style_text_color="0x995BFF" />
+          <lv_label text="Woonkamer" style_text_color="0xF4F7FF" />
+          <lv_label text="Laag" style_text_color="0xA9BBD5" />
+        </lv_obj>
+        <lv_obj width="184" height="150" style_bg_color="0x1B304B" style_radius="16" flex_flow="column" pad="12" gap="8">
+          <lv_label text="CAMERAS" style_text_color="0x31BFFF" />
+          <lv_label text="Voordeur" style_text_color="0xF4F7FF" />
+          <lv_label text="Online" style_text_color="0x36D995" />
+        </lv_obj>
+      </row>
+      <row width="100%" height="42" gap="12" vertical_align="center">
+        <lv_label text="AGENDA  |  Vandaag" style_text_color="0xA9BBD5" />
+        <lv_label text="ENERGIE  |  1,8 kW" style_text_color="0xA9BBD5" />
+      </row>
+    </column>
   </view>
 </screen>
