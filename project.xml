@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project name="home_assistant_dashboard" lvgl_version="9.5.0" theme="simple">
+<project lvgl_version="9.5.0">
   <targets>
     <target name="waveshare_7inch">
       <display width="800" height="480" />
