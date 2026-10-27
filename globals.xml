@@ -1,15 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <globals>
-  <consts>
-    <color name="bg" value="0x081222" />
-    <color name="panel" value="0x14243A" />
-    <color name="panel2" value="0x1B304B" />
-    <color name="white" value="0xF4F7FF" />
-    <color name="muted" value="0xA9BBD5" />
-    <color name="blue" value="0x31BFFF" />
-    <color name="purple" value="0x995BFF" />
-    <color name="green" value="0x36D995" />
-    <color name="orange" value="0xFFB84D" />
-    <color name="pink" value="0xF16E91" />
-  </consts>
 </globals>
